@@ -1122,7 +1122,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height:auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6755,3 +6755,65 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*Egen CSS*/
+
+/*Index Styling*/
+
+.Frontpage-Body {
+    background-image: url('/images/FrontpageTrees.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Frontpage-Headline {
+    font-size: 36px;
+    color: black;
+   align-content: center;
+   text-align: center;
+}
+
+/*Contact Styling*/
+.Contact-Body {
+    background-image: url('/images/FrontpageTrees.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/*About Styling*/
+.About-Body {
+    background-image: url('/images/FrontpageTrees.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.About-Text {
+    font-size: 14px;
+    padding: 20px;
+    font-family: 'Crete Round', serif;
+    align-content: center;
+    text-align: center;
+}
+
+/*Log Styling*/
+
+#Log-Body {
+    background-image: url('/images/FrontpageTrees.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.Log-Container {
+    font-size: 14px;
+    padding: 20px;
+    font-family: 'Crete Round', serif;
+    align-content: center;
+    text-align: center;
+}
+
+.Log-Post {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(255,255,255, 0.6);
+    border: 4px double black;
+}

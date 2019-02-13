@@ -17,20 +17,21 @@ namespace Portefolio.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Om projektet";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Kontaktside";
 
             return View();
         }
-
-        public IActionResult Privacy()
+        public IActionResult Log()
         {
+            ViewData["Message"] = "Projektlog";
+
             return View();
         }
 

@@ -26,15 +26,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Portefolio</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Portefølje</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Log">Projektlog</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Om Projektet</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Kontakt</a></li>
                 </ul>
-                <partial name="_LoginPartial" />
+                @*Hvis der skal register + login med igen så fjern kommateringen herunder*@
+                @*<partial name="_LoginPartial" />*@
             </div>
         </div>
     </nav>
@@ -44,9 +45,7 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; 2019 - Portefolio</p>
-        </footer>
+        
     </div>
 
     <environment include="Development">
