@@ -6795,6 +6795,30 @@ button.close {
     text-align: center;
 }
 
+/*Plan styling*/
+.Plan-Body {
+    background-image: url('/images/FrontpageTrees.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.Plan-Intro {
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Crete Round', serif;
+    align-content: center;
+    text-align: center;
+}
+
+.Plan-Learningplans {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(255,255,255, 0.6);
+    border: 4px double black;
+    padding: 10px;
+}
+
+
 /*Log Styling*/
 
 #Log-Body {
@@ -6817,3 +6841,5 @@ button.close {
     background-color: rgba(255,255,255, 0.6);
     border: 4px double black;
 }
+
+
