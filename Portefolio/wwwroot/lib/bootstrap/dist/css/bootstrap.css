@@ -1121,8 +1121,8 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6778,6 +6778,22 @@ button.close {
     background-image: url('/images/FrontpageTrees.jpg');
     background-size:cover;
     background-repeat:no-repeat;
+}
+
+.Contact-Row {
+    width: 100%;
+    margin:0px;
+}
+
+.Contact-Left {
+   float: left;
+    width: 60%;
+}
+
+.Contact-Right {
+    float: right;
+    width: 40%;
+    margin-top: 67px;
 }
 
 /*About Styling*/
