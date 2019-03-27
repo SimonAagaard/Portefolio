@@ -6792,8 +6792,14 @@ button.close {
 
 .Contact-Right {
     float: right;
-    width: 40%;
+    width: 38%;
     margin-top: 67px;
+    
+}
+
+.Contact-Image {
+    height:auto;
+    width: 100%;
 }
 
 /*About Styling*/
