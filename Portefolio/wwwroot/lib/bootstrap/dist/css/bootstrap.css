@@ -6862,6 +6862,7 @@ button.close {
     margin-bottom: 40px;
     background-color: rgba(255,255,255, 0.6);
     border: 4px double black;
+    width: 100%
 }
 
 
