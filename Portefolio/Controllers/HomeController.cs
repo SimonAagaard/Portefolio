@@ -40,6 +40,12 @@ namespace Portefolio.Controllers
 
             return View();
         }
+        public IActionResult Activities()
+        {
+            ViewData["Message"] = "Aktiviteter";
+
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

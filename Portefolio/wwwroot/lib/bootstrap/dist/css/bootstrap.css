@@ -6866,3 +6866,15 @@ button.close {
 }
 
 
+/*Activities Styling*/
+
+.Act-Body {
+    background-image: url('/images/FrontpageTrees.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Act-header {
+    margin-bottom: 50px;
+}
+
